@@ -11,6 +11,7 @@ Insert Value to the tables.
 ### STEP 4:
 Select no_of_works for each department in descending order.
 ## PROGRAM:
+```
 sql
 CREATE DATABASE ORG;
 SHOW DATABASES;
@@ -79,7 +80,7 @@ SELECT DEPARTMENT, COUNT(*) AS no_of_works
 FROM Worker
 GROUP BY DEPARTMENT
 ORDER BY no_of_works DESC;
-
+```
 ## OUTPUT:
 ![image](https://github.com/Karthikeyan21001828/DBMS_EX02/assets/93427303/eb9153d7-d54b-4c79-8b69-573fa8419af4)
 ## RESULT:
